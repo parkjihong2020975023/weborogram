@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+<meta charset="utf-8">
+<style> 
+    body {background-color:  linen; color : green;
+            margin-left : 40px; margin-right: 40px; }
+    h3 { text-align : center ; color : darked;}
+    hr { height : 5px ; border : solid grey;  background-color: grey;}
+    span {color : blue ; font-size : 20px;}
+</style>
+<script>
+    function show() {
+        document.getElementById("fig").src = "myface.png"
+    }
+     function hide() {
+        document.getElementById("fig").src = "";
+    }
+</script>
+</head>
+<body>
+    <h3 onmouseover="show()" onmouseout="hide()"> 박지홍</h3>
+    
+    
+<hr><div><img id="fig" height="300" width="300" src="" alt="박지홍사진"></div>
+저는 부산에서 살며 동천고등학교를 졸업하고 경성대학교로 입학했습니다.<br>
+경성대학교에서 <span>소프트웨어학과</span> 로 전공을 정했으며<br>
+잘하는것은 그나마 c언어 인거 같습니다. 감자합니다. <br>
+<!-- gif파일도 들어가는지 실험-->
+<img src="happyCat.gif" height="100" width="100"> </img>
+
+</body>
+</html>
